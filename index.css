@@ -1,9 +1,9 @@
 /*fundamentals*/
 :root{
     --text-color: white !important;
-    --bg-color:#3A6B35 !important;
-    --main-color: #E3B448 !important;
-    --other-color:#CBD18F !important;
+    --bg-color:#5CDB95 !important;
+    --main-color: #05386b !important;
+    --other-color:#EDF5E1 !important;
     --h1-font: 4.5rem !important;
     --h2-font: 2.9rem !important;
     --p-font: 1.3rem !important;
@@ -24,6 +24,7 @@
 .navbar-brand{
     font-size: var(--h2-font);
 }
+
 /*body*/
 body{
     background-color: var(--bg-color) !important;
@@ -87,7 +88,7 @@ body{
     color: var(--bg-color);
 }
 .custom-link :hover{
-    color: var(--bg-color);
+    color: var(--main-color);
     background-color: var(--other-color);
 }
 .home-name{
@@ -128,7 +129,7 @@ body{
 }
 .submit-btn:hover{
     background-color: var(--other-color);
-    color: var(--bg-color);
+    color: var(--main-color);
 }
 .form-label{
     color: var(--main-color);
@@ -153,7 +154,7 @@ body{
 }
 .cv-btn:hover{
     background-color: var(--other-color);
-    color: var(--bg-color);
+    color: var(--main-color);
 }
 .about-img{
     border-radius: 50px;
@@ -182,6 +183,11 @@ body{
     font-size: var(--p-font);
 }
 .progress-bar{
-    background-color: var(--other-color);
+    background-color: var(--main-color);
     color: var(--bg-color);
+}
+.abt-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
